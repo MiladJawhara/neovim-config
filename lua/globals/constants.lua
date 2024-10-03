@@ -13,6 +13,7 @@ return {
     "cpp",
     "java",
     "xml",
+    "tsx",
   },
   mason_lsps = {
     "lua-language-server",

@@ -1,8 +1,9 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    -- css = { "prettier" },
-    -- html = { "prettier" },
+    css = { "prettier" },
+    html = { "prettier" },
+    php = {"phpcbf"}
   },
 
   -- format_on_save = {
