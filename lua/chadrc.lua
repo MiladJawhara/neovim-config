@@ -3,7 +3,7 @@
 -- Please read that file to know all available options :(
 local globalConstants = require "globals.constants"
 
----@type ChadrcConfig
+---@class ChadrcConfig
 local M = {}
 
 M.mason = {
