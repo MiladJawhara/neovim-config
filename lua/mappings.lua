@@ -20,4 +20,8 @@ map('n', '<F11>',dap.step_into)
 map('n', '<F12>',dap.step_out)
 map('n', '<leader>b',dap.toggle_breakpoint)
 
+map('n','<C-a>',"ggVG");
+map('n','<C-d>',"Vyp$");
+
+map('v','<leader>fm',"<leader>gw");
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
