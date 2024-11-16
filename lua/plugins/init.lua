@@ -1,4 +1,3 @@
-local globalConstants = require "globals.constants"
 return {
   {
     "stevearc/conform.nvim",
@@ -17,8 +16,23 @@ return {
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
-      ensure_installed = globalConstants.treesetter_languages,
-       incremental_selection = {
+      ensure_installed = {
+        "javascript",
+        "typescript",
+        "php",
+        "prisma",
+        "vim",
+        "lua",
+        "vimdoc",
+        "html",
+        "css",
+        "bash",
+        "cpp",
+        "java",
+        "xml",
+        "tsx",
+      },
+      incremental_selection = {
         enable = true,
         keymaps = {
           init_selection = "<leader>ss",
@@ -26,7 +40,7 @@ return {
           scope_incremental = "<leader>sc",
           node_decremental = "<leader>s-",
         },
-      }
+      },
     },
   },
 }

@@ -2,9 +2,19 @@
 require("nvchad.configs.lspconfig").defaults()
 
 local lspconfig = require "lspconfig"
-local globalConstants = require("globals.constants");
 -- EXAMPLE
-local servers = globalConstants.config_lsps;
+local servers = {
+  "html",
+  "cssls",
+  "prismals",
+  "ts_ls",
+  "intelephense",
+  "lua_ls",
+  "bashls",
+  "clangd",
+  "jdtls",
+  "lemminx",
+}
 local nvlsp = require "nvchad.configs.lspconfig"
 
 -- lsps with default config
