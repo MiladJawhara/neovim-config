@@ -17,7 +17,15 @@ M.mason = {
     "lemminx",
     "clang-format",
     "clangd",
-  }
+    "dockerfile-language-server",
+    "docker-compose-language-service",
+    "yaml-language-server",
+    "nginx-language-server",
+    "bash-language-server",
+    "typescript-language-server",
+    "tailwindcss-language-server",
+    "eslint-lsp",
+  },
 }
 
 M.base46 = {

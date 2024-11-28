@@ -14,6 +14,12 @@ local servers = {
   "clangd",
   "jdtls",
   "lemminx",
+  "dockerls",
+  "docker_compose_language_service",
+  "tailwindcss",
+  "yamlls",
+  "nginx_language_server",
+  "eslint",
 }
 local nvlsp = require "nvchad.configs.lspconfig"
 

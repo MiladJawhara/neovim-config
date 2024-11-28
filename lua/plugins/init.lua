@@ -31,6 +31,10 @@ return {
         "java",
         "xml",
         "tsx",
+        "json",
+        "scss",
+        "yaml",
+        "dockerfile",
       },
       incremental_selection = {
         enable = true,

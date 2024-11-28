@@ -3,7 +3,8 @@ local options = {
     lua = { "stylua" },
     css = { "prettier" },
     html = { "prettier" },
-    php = {"phpcbf"}
+    json = { "prettier" },
+    php = { "phpcbf" },
   },
 
   -- format_on_save = {
